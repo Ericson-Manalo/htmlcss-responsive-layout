@@ -6,9 +6,11 @@
 }
 
 header{
+    width: 100%;
     height: 80px;
     background-color: #0084fd;
 }
+
 
 nav{
     height: 100%;
@@ -22,4 +24,47 @@ ul li{
 
 .flex{
     display: flex
+}
+
+.fl-wrap{
+    flex-wrap: wrap;
+}
+
+.main-container{
+    margin: 0 auto;
+    max-width: 1200px;
+    padding: 2rem;
+}
+
+.container{
+    width: 100%;
+}
+
+.box{
+    width: 100%;
+    height: 200px;
+    background-color: #b5ddff;
+    margin-bottom: 1rem;
+}
+
+
+
+
+/******TABLET*******/
+
+@media screen and (min-width: 480px){
+
+    div.box{
+        width: calc(100% / 3);
+        height: 200px;
+        background-color: aqua;
+    } 
+
+    div.big-box{
+        width: calc((100% / 3) * 2);
+        height: 200px;
+
+    }
+
+
 }
