@@ -22,12 +22,24 @@ ul li{
     list-style-type: none;
 }
 
+.fd-column{
+    flex-direction: column;
+}
+
+.violet-bg{
+    background-color: #9792e4;
+}
+
 .flex{
     display: flex
 }
 
 .fl-wrap{
     flex-wrap: wrap;
+}
+
+.mg-bottom{
+    margin-bottom: 2rem;
 }
 
 .main-container{
@@ -48,6 +60,23 @@ ul li{
     border-radius: 1.2rem;
 }
 
+.strategic-container{
+    margin: 0 auto;
+    max-width: 1200px;
+    padding: 2rem;
+}
+
+.strategic-sect{
+    width: 100%;
+    height: 500px;
+}
+
+.strategic-box{
+    width: 100%;
+    height: 200px;
+    background-color: red;
+}
+
 
 
 
@@ -56,17 +85,18 @@ ul li{
 @media screen and (min-width: 480px){
 
     .container{
-        gap: 1.5rem;
+        gap: 1rem;
+        justify-content: space-between;
     }
 
     div.box{
-        width: calc(100% / 3 - 1.5rem);
+        width: calc(100% / 3 - 1rem);
         height: 200px;
         background-color: aqua;
     } 
 
     div.big-box{
-        width: calc(((100% / 3) * 2) - 1.5rem);
+        width: calc(((100% / 3) * 2) - 1rem);
         height: 200px;
     }
 
@@ -77,5 +107,14 @@ ul li{
 /******DESKTOP****/
 
 @media screen and (min-width: 768px) {
+
+    .strategic-container{
+        margin: 0 auto;
+        padding: 2rem;
+        max-width: 800px;
+    }
     
+    div.fd-column{
+        flex-direction: row;
+    }
 }
