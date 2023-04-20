@@ -8,12 +8,12 @@
 body{
     font-family: 'Raleway', sans-serif;
 }
+
 header{
     width: 100%;
     height: 80px;
     background-color: #0084fd;
 }
-
 
 nav{
     height: 100%;
@@ -79,12 +79,7 @@ p{
 .box-container{
     width: 80%;
     height: 100%;
-    margin: 2rem auto;
-}
-
-.img-size{
-    height: 300px;
-    width: 100%;
+    margin: 2rem auto 0rem;
 }
 
 img{
@@ -95,6 +90,10 @@ img{
 
 .blue-text{
     color: #0084fd;
+}
+
+.w-text{
+    color: white;
 }
 
 .download-btn{
@@ -115,21 +114,18 @@ img{
 
 .strategic-sect{
     width: 100%;
-    height: 500px;
 }
 
 .strategic-box{
     width: 100%;
-    height: 200px;
-    background-color: red;
 }
 
 .box-partner{
     width: 100%;
-    height: 200px;
-    background-color: blue;
     margin-bottom: 1rem;
-    border-radius: .7rem;
+    border-radius: 3rem;
+    text-align: center;
+    padding: 2rem;
 }
 
 .benefits-box{
@@ -139,6 +135,19 @@ img{
     margin-bottom: 1rem;
     border-radius: 1rem;
 }
+
+.dev-container{
+    width: 100%;
+    background-color: white;
+    border-radius: 2rem;
+    height: 500px;
+    text-align: center;
+}
+
+.testimonial-img{
+    width: 100%;
+}
+
 
 div.big-box .box-container{
     margin: 2rem auto 0;
@@ -152,6 +161,22 @@ div.align-center i{
     font-size: 5rem;
     color: #0084fd;;
 }
+
+div.dev-container img{
+    width: 80%;
+    height: 250px;
+}
+
+div.box-partner img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+div.box-partner h3{
+    text-transform: uppercase;
+}
+
 
 
 
@@ -185,7 +210,12 @@ div.align-center i{
     }
 
     img{
-        width: 70%;
+        width: 100%;
+    }
+
+    div.dev-container img{
+        width: 60%;
+        height: 250px;
     }
 
 }
@@ -212,6 +242,18 @@ div.align-center i{
 
     .benefits-box{
         width: calc(100% / 3 - 1rem);
+    }
+
+    .box-container{
+        margin: 2rem auto 0;
+    }
+
+    div.big-box .box-container{
+        display: flex;
+    }
+
+    .dev-container{
+        width: 100%;
     }
 
 
