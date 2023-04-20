@@ -45,6 +45,7 @@ ul li{
     height: 200px;
     background-color: #b5ddff;
     margin-bottom: 1rem;
+    border-radius: 1.2rem;
 }
 
 
@@ -54,17 +55,27 @@ ul li{
 
 @media screen and (min-width: 480px){
 
+    .container{
+        gap: 1.5rem;
+    }
+
     div.box{
-        width: calc(100% / 3);
+        width: calc(100% / 3 - 1.5rem);
         height: 200px;
         background-color: aqua;
     } 
 
     div.big-box{
-        width: calc((100% / 3) * 2);
+        width: calc(((100% / 3) * 2) - 1.5rem);
         height: 200px;
-
     }
 
 
+}
+
+
+/******DESKTOP****/
+
+@media screen and (min-width: 768px) {
+    
 }
