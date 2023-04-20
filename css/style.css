@@ -7,6 +7,7 @@
 
 body{
     font-family: 'Raleway', sans-serif;
+    font-size: 1.2rem;
 }
 
 header{
@@ -218,6 +219,16 @@ div.box-partner h3{
         height: 250px;
     }
 
+    .box-partner{
+        display: flex;
+        text-align: left;
+        align-items: center;
+    }
+
+    .testimonial-quote{
+        margin-left: 1rem;
+    }
+
 }
 
 
@@ -255,6 +266,20 @@ div.box-partner h3{
     .dev-container{
         width: 100%;
     }
+
+    .box-partner{
+        display: flex;
+    }
+
+    .testimonial-img{
+        width: 27%;
+    }
+
+    .testimonial-quote{
+        width: 73%;
+    }
+
+
 
 
 }
