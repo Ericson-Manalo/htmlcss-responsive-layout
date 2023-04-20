@@ -5,6 +5,9 @@
     box-sizing: border-box;
 }
 
+body{
+    font-family: 'Raleway', sans-serif;
+}
 header{
     width: 100%;
     height: 80px;
@@ -21,6 +24,15 @@ nav{
 ul li{
     list-style-type: none;
 }
+
+.mb-30{
+    margin-bottom: 30px;
+}
+
+p{
+    line-height: 2rem;
+}
+
 
 .fd-column{
     flex-direction: column;
@@ -42,6 +54,10 @@ ul li{
     margin-bottom: 2rem;
 }
 
+.align-center{
+    text-align: center;
+}
+
 .main-container{
     margin: 0 auto;
     max-width: 1200px;
@@ -54,10 +70,41 @@ ul li{
 
 .box{
     width: 100%;
-    height: 200px;
+
     background-color: #b5ddff;
     margin-bottom: 1rem;
     border-radius: 1.2rem;
+}
+
+.box-container{
+    width: 80%;
+    height: 100%;
+    margin: 2rem auto;
+}
+
+.img-size{
+    height: 300px;
+    width: 100%;
+}
+
+img{
+    width: 100%;
+    height: 100%;
+
+}
+
+.blue-text{
+    color: #0084fd;
+}
+
+.download-btn{
+    background-color: #0084fd;
+    color: white;
+    padding: .8rem 3rem;
+    width: 80%;
+    border: #0084fd;
+    border-radius: 1.2rem;
+    font-weight: bold;
 }
 
 .strategic-container{
@@ -77,7 +124,6 @@ ul li{
     background-color: red;
 }
 
-
 .box-partner{
     width: 100%;
     height: 200px;
@@ -86,7 +132,6 @@ ul li{
     border-radius: .7rem;
 }
 
-
 .benefits-box{
     width: 100%;
     height: 200px;
@@ -94,6 +139,21 @@ ul li{
     margin-bottom: 1rem;
     border-radius: 1rem;
 }
+
+div.big-box .box-container{
+    margin: 2rem auto 0;
+}
+
+h2.blue-text{
+    font-weight: bold;
+}
+
+div.align-center i{
+    font-size: 5rem;
+    color: #0084fd;;
+}
+
+
 
 
 
@@ -109,15 +169,11 @@ ul li{
 
     div.box{
         width: calc(100% / 3 - 1rem);
-        height: 200px;
-        background-color: aqua;
     } 
 
     div.big-box{
         width: calc(((100% / 3) * 2) - 1rem);
-        height: 200px;
     }
-
 
     .row{
         display: flex;
@@ -128,7 +184,9 @@ ul li{
         width: calc(100% / 2 - 1rem);
     }
 
-
+    img{
+        width: 70%;
+    }
 
 }
 
