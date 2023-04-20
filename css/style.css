@@ -39,6 +39,10 @@ h4{
     font-weight: lighter;
 }
 
+.violet-text{
+    color: #9792e4;
+}
+
 .fd-column{
     flex-direction: column;
 }
@@ -75,7 +79,6 @@ h4{
 
 .box{
     width: 100%;
-
     background-color: #b5ddff;
     margin-bottom: 1rem;
     border-radius: 1.2rem;
@@ -141,10 +144,10 @@ img{
 
 .benefits-box{
     width: 100%;
-    height: 200px;
     background-color: white;
     margin-bottom: 1rem;
     border-radius: 1rem;
+    padding: 1.5rem;
 }
 
 .dev-container{
@@ -192,6 +195,30 @@ div.partnership-box h2{
     margin: 2rem;
 }
 
+div.main-container h1{
+    font-size: 2.3rem;
+    text-align: center;
+    font-weight: 600;
+    margin-bottom: 2rem;
+    display: block;
+}
+
+div.benefits-box h2{
+    font-size: 3rem;
+}
+
+div.benefits-box p{
+    font-weight:lighter;
+}
+
+div.benefits-box button{
+    background-color: #9792e4;
+    color: white;
+    padding: .8rem 4rem;
+    border: #9792e4;
+    border-radius: 1.2rem;
+    font-weight: bold;
+}
 
 
 
