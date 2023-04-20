@@ -87,6 +87,16 @@ ul li{
 }
 
 
+.benefits-box{
+    width: 100%;
+    height: 200px;
+    background-color: orange;
+    margin-bottom: 1rem;
+    border-radius: 1rem;
+}
+
+
+
 
 /******TABLET*******/
 
@@ -109,6 +119,17 @@ ul li{
     }
 
 
+    .row{
+        display: flex;
+        gap: 1rem;
+    }
+
+    .benefits-box{
+        width: calc(100% / 2 - 1rem);
+    }
+
+
+
 }
 
 
@@ -125,4 +146,15 @@ ul li{
     div.fd-column{
         flex-direction: row;
     }
+
+    .row{
+        display: flex;
+        gap: 1rem;
+    }
+
+    .benefits-box{
+        width: calc(100% / 3 - 1rem);
+    }
+
+
 }
