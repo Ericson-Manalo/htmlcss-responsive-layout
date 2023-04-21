@@ -6,7 +6,7 @@
 }
 
 body{
-    font-family: 'PT Sans', sans-serif;
+    font-family: 'Raleway', sans-serif;
     font-size: 1.2rem;
     font-weight: lighter;
 }
@@ -403,6 +403,8 @@ div.get-start h2.yellow{
         width: 40%;
         margin: 0 auto 30px;
     }
+
+    footer
 
 
 }
