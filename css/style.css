@@ -26,6 +26,14 @@ ul li{
     padding: 1rem;
 }
 
+.l-w200{
+    font-weight: 200;
+}
+
+.f-size{
+    font-size: 1rem;
+}
+
 .mb-30{
     margin-bottom: 30px;
 }
@@ -137,6 +145,15 @@ img{
     width: 100%;
 }
 
+.circle-btn{
+    background-color: #9792e4;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    border: #9792e4;
+}
+
+
 .box-partner{
     width: 100%;
     margin-bottom: 1rem;
@@ -208,6 +225,7 @@ div.dev-container img{
 div.dev-container p{
     padding: 1rem;
 }
+
 
 div.box-partner img{
     width: 200px;
