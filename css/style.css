@@ -6,7 +6,7 @@
 }
 
 body{
-    font-family: 'Raleway', sans-serif;
+    font-family: 'PT Sans', sans-serif;
     font-size: 1.2rem;
 }
 
@@ -85,9 +85,9 @@ h4{
 }
 
 .box-container{
-    width: 80%;
-    height: 100%;
-    margin: 2rem auto 0rem;
+        width: 80%;
+        height: 100%;
+        margin: 2rem auto 0rem;
 }
 
 img{
@@ -154,12 +154,13 @@ img{
     width: 100%;
     background-color: white;
     border-radius: 2rem;
-    height: 500px;
     text-align: center;
 }
 
-.testimonial-img{
-    width: 100%;
+.img-aboutus{
+    width: 170px;
+    height: 170px;
+    border-radius: 50%;
 }
 
 div.big-box .box-container{
@@ -177,13 +178,20 @@ div.align-center i{
 
 div.dev-container img{
     width: 80%;
-    height: 250px;
+    height: 300px;
+    object-fit: cover;
+    padding-top: 2rem;
+}
+
+div.dev-container p{
+    padding: 1rem;
 }
 
 div.box-partner img{
     width: 200px;
     height: 200px;
     border-radius: 50%;
+    object-fit: cover;
 }
 
 div.box-partner h3{
@@ -211,7 +219,7 @@ div.benefits-box p{
     font-weight:lighter;
 }
 
-div.benefits-box button{
+div button.violet-bg{
     background-color: #9792e4;
     color: white;
     padding: .8rem 4rem;
@@ -256,7 +264,8 @@ div.benefits-box button{
 
     div.dev-container img{
         width: 60%;
-        height: 250px;
+        height: 300px;
+        object-fit: cover;
     }
 
     .box-partner{
@@ -267,6 +276,18 @@ div.benefits-box button{
 
     .testimonial-quote{
         margin-left: 1rem;
+    }
+
+    .aboutus-container{
+        display:flex
+    }
+
+    .aboutus-text{
+        width: 70%;
+    }
+
+    .aboutus-img{
+        width: 30%;
     }
 
 }
@@ -304,7 +325,8 @@ div.benefits-box button{
     }
 
     .dev-container{
-        width: 100%;
+        width: 90%;
+        margin-left: 3rem;
     }
 
     .box-partner{
@@ -319,6 +341,17 @@ div.benefits-box button{
         width: 73%;
     }
 
+    .aboutus-container{
+        justify-content: space-between;
+    }
+
+    .aboutus-text{
+        width: 70%;
+    }
+
+    .aboutus-img{
+        width: 20%;
+    }
 
 
 
